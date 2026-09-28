@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        'first_node = study_pkg_efan.scripts.first_node:main',   
+        'first_node = study_pkg_efan.scripts.first_node:main', 
+        'time_printer_code = study_pkg_efan.timer_printer.time_printer_code:main',
         ],
     },
 )

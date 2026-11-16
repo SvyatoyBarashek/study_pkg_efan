@@ -26,6 +26,10 @@ setup(
         'console_scripts': [
         'first_node = study_pkg_efan.scripts.first_node:main', 
         'time_printer_code = study_pkg_efan.timer_printer.time_printer_code:main',
+        'talker = study_pkg_efan.talker:main',
+        'listener = study_pkg_efan.listener:main',
+        'even_number_publisher = study_pkg_efan.lab2.even_number_publisher:main',
+        'overflow_listener = study_pkg_efan.lab2.overflow_listener:main',
         ],
     },
 )
